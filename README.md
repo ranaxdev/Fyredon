@@ -1,92 +1,81 @@
-# COMP5530M Group Project - Team Fyredon Game Engine
+# Fyredon Engine
+<!-- PROJECT LOGO -->
+<br />
+<p align="center">
+  <a href="https://github.com/ranaxdev/Fyredon">
+    <img src="https://github.com/ranaxdev/Fyredon/blob/main/Assets/Images/Misc/Fyredon_logo_alpha.png" alt="Logo" width="500px">
+  </a>
+
+  <h3 align="center">3D game engine for Windows OS</h3>
+
+  <p align="center">
+    <a href="https://github.com/ranaxdev/Fyredon/issues">Report Bug</a>
+    ·
+            <a href="https://youtube.com/playlist?list=PLhiYhW5wXPMFaL5UFiDgwGbXviWu4I96l">Video Demos</a>
+
+  </p>
+</p>
+
+<hr>
 
 
 
-## Getting started
+<!-- ABOUT THE PROJECT -->
+## Preview
+Fyredon Engine is a 3D game engine for the `Windows x64` operating system to create games from a unified interface. It provides a comprehensive set of features, such as a 3D renderer, an entity component system (ECS), animation, navigation and terrain generation so that developers can focus on making games without having to reinvent the wheel.
 
-To make it easy for you to get started with GitLab, here's a list of recommended next steps.
 
-Already a pro? Just edit this README.md and make it your own. Want to make it easy? [Use the template at the bottom](#editing-this-readme)!
 
-## Add your files
+https://user-images.githubusercontent.com/44033302/177024517-57cbd3e1-1326-4765-aeb8-fbca25eab88e.mp4
 
-- [ ] [Create](https://docs.gitlab.com/ee/user/project/repository/web_editor.html#create-a-file) or [upload](https://docs.gitlab.com/ee/user/project/repository/web_editor.html#upload-a-file) files
-- [ ] [Add files using the command line](https://docs.gitlab.com/ee/gitlab-basics/add-file.html#add-a-file-using-the-command-line) or push an existing Git repository with the following command:
+![Fyredon_Shaderballs_00](https://user-images.githubusercontent.com/44033302/177024558-4aeb7b21-96c6-4fab-9aaa-a306d4bd23d1.PNG)
 
+
+
+<br>
+
+Developed at the University of Leeds by Sharjeel Qaiser, Isaiah Fergile-Leybourne, Niall Horn, Xiaoyuan Yang, Zechen Geng and Tianyi Yang.
+
+
+
+## Get it
+
+```bash
+git clone https://github.com/ranaxdev/Fyredon/
+./Setup.bat
+vs2019 Fyredon.sln
 ```
-cd existing_repo
-git remote add origin https://gitlab.com/sc18ijf/comp5530m-group-project-team-fyredon-game-engine.git
-git branch -M main
-git push -uf origin main
-```
 
-## Integrate with your tools
+## Libraries Used
 
-- [ ] [Set up project integrations](https://gitlab.com/sc18ijf/comp5530m-group-project-team-fyredon-game-engine/-/settings/integrations)
+- [GLAD](https://github.com/Dav1dde/glad)
+: OpenGL Loading Library
 
-## Collaborate with your team
+- [GLM](https://github.com/g-truc/glm)
+: OpenGL Mathematics
 
-- [ ] [Invite team members and collaborators](https://docs.gitlab.com/ee/user/project/members/)
-- [ ] [Create a new merge request](https://docs.gitlab.com/ee/user/project/merge_requests/creating_merge_requests.html)
-- [ ] [Automatically close issues from merge requests](https://docs.gitlab.com/ee/user/project/issues/managing_issues.html#closing-issues-automatically)
-- [ ] [Enable merge request approvals](https://docs.gitlab.com/ee/user/project/merge_requests/approvals/)
-- [ ] [Automatically merge when pipeline succeeds](https://docs.gitlab.com/ee/user/project/merge_requests/merge_when_pipeline_succeeds.html)
+- [GLFW](https://www.glfw.org/)
+: A multi-platform library for OpenGL, OpenGL ES, Vulkan, window and input 
 
-## Test and Deploy
+- [Dear ImGui](https://github.com/ocornut/imgui)
+: Bloat-free Graphical User interface for C++ with minimal dependencies 
 
-Use the built-in continuous integration in GitLab.
+- [Bicycle GAN](https://github.com/junyanz/BicycleGAN)
+:  Toward Multimodal Image-to-Image Translation 
 
-- [ ] [Get started with GitLab CI/CD](https://docs.gitlab.com/ee/ci/quick_start/index.html)
-- [ ] [Analyze your code for known vulnerabilities with Static Application Security Testing(SAST)](https://docs.gitlab.com/ee/user/application_security/sast/)
-- [ ] [Deploy to Kubernetes, Amazon EC2, or Amazon ECS using Auto Deploy](https://docs.gitlab.com/ee/topics/autodevops/requirements.html)
-- [ ] [Use pull-based deployments for improved Kubernetes management](https://docs.gitlab.com/ee/user/clusters/agent/)
-- [ ] [Set up protected environments](https://docs.gitlab.com/ee/ci/environments/protected_environments.html)
+- [FBX SDK](https://www.autodesk.com/developer-network/platform-technologies/fbx-sdk-2020-0)
+: Autodesk FBX Software Developer Kit
 
-***
 
-# Editing this README
-
-When you're ready to make this README your own, just edit this file and use the handy template below (or feel free to structure it however you want - this is just a starting point!).  Thank you to [makeareadme.com](https://www.makeareadme.com/) for this template.
-
-## Suggestions for a good README
-Every project is different, so consider which of these sections apply to yours. The sections used in the template are suggestions for most open source projects. Also keep in mind that while a README can be too long and detailed, too long is better than too short. If you think your README is too long, consider utilizing another form of documentation rather than cutting out information.
-
-## Name
-Choose a self-explaining name for your project.
-
-## Description
-Let people know what your project can do specifically. Provide context and add a link to any reference visitors might be unfamiliar with. A list of Features or a Background subsection can also be added here. If there are alternatives to your project, this is a good place to list differentiating factors.
-
-## Badges
-On some READMEs, you may see small images that convey metadata, such as whether or not all the tests are passing for the project. You can use Shields to add some to your README. Many services also have instructions for adding a badge.
-
-## Visuals
-Depending on what you are making, it can be a good idea to include screenshots or even a video (you'll frequently see GIFs rather than actual videos). Tools like ttygif can help, but check out Asciinema for a more sophisticated method.
-
-## Installation
-Within a particular ecosystem, there may be a common way of installing things, such as using Yarn, NuGet, or Homebrew. However, consider the possibility that whoever is reading your README is a novice and would like more guidance. Listing specific steps helps remove ambiguity and gets people to using your project as quickly as possible. If it only runs in a specific context like a particular programming language version or operating system or has dependencies that have to be installed manually, also add a Requirements subsection.
-
-## Usage
-Use examples liberally, and show the expected output if you can. It's helpful to have inline the smallest example of usage that you can demonstrate, while providing links to more sophisticated examples if they are too long to reasonably include in the README.
-
-## Support
-Tell people where they can go to for help. It can be any combination of an issue tracker, a chat room, an email address, etc.
-
-## Roadmap
-If you have ideas for releases in the future, it is a good idea to list them in the README.
-
-## Contributing
-State if you are open to contributions and what your requirements are for accepting them.
-
-For people who want to make changes to your project, it's helpful to have some documentation on how to get started. Perhaps there is a script that they should run or some environment variables that they need to set. Make these steps explicit. These instructions could also be useful to your future self.
-
-You can also document commands to lint the code or run tests. These steps help to ensure high code quality and reduce the likelihood that the changes inadvertently break something. Having instructions for running tests is especially helpful if it requires external setup, such as starting a Selenium server for testing in a browser.
-
-## Authors and acknowledgment
-Show your appreciation to those who have contributed to the project.
-
+<!-- LICENSE -->
 ## License
-For open source projects, say how it is licensed.
 
-## Project status
-If you have run out of energy or time for your project, put a note at the top of the README saying that development has slowed down or stopped completely. Someone may choose to fork your project or volunteer to step in as a maintainer or owner, allowing your project to keep going. You can also make an explicit request for maintainers.
+Distributed under the MIT License. See `LICENSE` for more information.
+
+
+<!-- CONTACT -->
+## Contact
+
+S.R. Qaiser - [@pitu_dev](https://twitter.com/pitu_dev) - sc21srq@leeds.ac.uk
+
+Project Link: [https://github.com/ranaxdev/Fyredon](https://github.com/ranaxdev/Fyredon)
