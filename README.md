@@ -22,7 +22,7 @@
 
 <!-- ABOUT THE PROJECT -->
 ## Preview
-Fyredon Engine is a 3D game engine for the `Windows x64` operating system to create games from a unified interface. It provides a comprehensive set of features, such as a 3D renderer, an entity component system (ECS), animation, navigation and terrain generation so that developers can focus on making games without having to reinvent the wheel.
+Fyredon Engine is a 3D game engine for the `Windows x64` operating system to create games from a unified interface. It provides a comprehensive set of features, such as a 3D renderer, an entity component system (ECS), animation, navigation, scripting and terrain generation so that developers can focus on making games without having to reinvent the wheel.
 
 
 
