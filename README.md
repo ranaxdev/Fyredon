@@ -36,6 +36,8 @@ https://user-images.githubusercontent.com/44033302/177024517-57cbd3e1-1326-4765-
 
 Developed at the University of Leeds by Sharjeel Qaiser, Isaiah Fergile-Leybourne, Niall Horn, Xiaoyuan Yang, Zechen Geng and Tianyi Yang.
 
+<img src="https://github.com/ranaxdev/Fyredon/blob/main/Assets/Images/Misc/new.PNG" alt="Logo" width="500px">
+
 
 
 ## Get it
